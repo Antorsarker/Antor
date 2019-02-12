@@ -29,6 +29,7 @@ public class MainActivity extends AppCompatActivity {
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 String value=countrynames[position];
                 Toast.makeText(MainActivity.this,value,Toast.LENGTH_SHORT).show();
+                ///hoba change
             }
         });
 
